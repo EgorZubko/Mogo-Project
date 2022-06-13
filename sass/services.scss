@@ -8,6 +8,7 @@
     width: calc( 1170px + 15px *2);
     padding: 15px 0 91px;
     margin: 0 auto;
+    
     .text {
         font-family: 'Kaushan Script';
         font-style: normal;
@@ -59,8 +60,11 @@
 
     .benefits {
         
+
         .benefits__item {
             display: inline-grid;
+            max-width: 370px;
+            width: 100%;
             grid-template-rows: 1fr 1fr 1fr ;
             padding-left: 100px;
             position: relative;

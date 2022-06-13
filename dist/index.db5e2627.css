@@ -58,6 +58,8 @@
 }
 
 .services .benefits .benefits__item {
+  max-width: 370px;
+  width: 100%;
   grid-template-rows: 1fr 1fr 1fr;
   padding-top: 100px;
   padding-left: 100px;
