@@ -11,12 +11,6 @@
   padding: 80px 0;
 }
 
-.about__content .about__text {
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-}
-
 .about__content .text {
   color: #2d3033;
   text-align: center;
@@ -61,17 +55,20 @@
   display: flex;
 }
 
-.about__content .about__icon {
+.about__content .about__pic .about__item {
   width: 30%;
 }
 
-.about__content .about__img {
+.about__content .about__pic .about__img {
   background: linear-gradient(360deg, #edd789e6 0%, #e98283e6 100%);
 }
 
-.about__content .about__img:hover {
-  opacity: .3;
+.about__content .about__pic .about__item:hover img {
+  opacity: .7;
   transition: opacity .1s linear;
+}
+
+.about__content .about__pic .about__img:hover {
   transform: translate3d(-10px, -10px, 0);
 }
 
