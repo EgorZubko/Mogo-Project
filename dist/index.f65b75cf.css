@@ -5,7 +5,7 @@
 }
 
 .work__content {
-  width: 1200px;
+  max-width: 1540px;
   width: 100%;
   margin: 0 auto;
   padding: 50px 0 126px;
@@ -56,6 +56,10 @@
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(377px, auto);
   display: grid;
+}
+
+.work__content .work__pic > img:nth-child(3) {
+  grid-area: 1 / 3 / 3 / 4;
 }
 
 /*# sourceMappingURL=index.f65b75cf.css.map */
