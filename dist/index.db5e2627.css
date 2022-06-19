@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.services {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0 91px;
+}
+
+.services .text {
+  color: #2d3033;
+  text-align: center;
+  font-family: Kaushan Script;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.services .subtitle {
+  color: #2d3033;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px 0;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 42px;
+}
+
+.services .line {
+  width: 170px;
+  border: 4px solid #f38281;
+  margin: 0 auto;
+}
+
+.services .benefits__title {
+  color: #2d3033;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.services .benefits__description {
+  color: #2d3033;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.services .benefits .benefits__item {
+  max-width: 370px;
+  width: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 100px;
+  padding-left: 100px;
+  display: inline-grid;
+  position: relative;
+}
+
+.services .benefits svg {
+  z-index: 1;
+  position: absolute;
+  top: 85px;
+  left: 15px;
+}
+
+/*# sourceMappingURL=index.db5e2627.css.map */
